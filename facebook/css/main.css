@@ -10,7 +10,9 @@ header {
     background: #4060B8;
     position: sticky;
     top: 0px;
-    padding-top: 9px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .facebookLogo {
@@ -204,4 +206,31 @@ header {
     .container .textStorie {       
         height: 50px;
         display: inline-block;
+    }
+
+    #logo{
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+    #logo div{
+        display: flex !important;
+        align-items: center;
+    }
+
+    #searchBar{
+        flex: 3;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #searchBar input{
+        width: 80%;
+        height: 100%;
+    }
+
+    #reguero{
+        flex: 2;
     }
